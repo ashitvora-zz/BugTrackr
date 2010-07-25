@@ -1,0 +1,9 @@
+#loading-app > span{
+	background-color:#ff4040;
+	padding:2px 5px;
+	color:#fff;
+}
+
+.form-submitting-action{
+	display:none;
+}

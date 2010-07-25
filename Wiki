@@ -1,0 +1,2 @@
+All panels should have a class "Panel"
+To hide all panels $(".panel").hide();

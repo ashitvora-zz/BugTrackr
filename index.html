@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BugTrackr</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="public/js/libs/html5shiv.js"></script> <!-- HTML5 for non compatible browsers -->
+		
+		<!-- CSS styles -->
+		<link rel="stylesheet" type="text/css" href="public/css/html5reset.css" />
+		<link rel="stylesheet" type="text/css" href="public/css/960.css" />
+		<link rel="stylesheet" type="text/css" href="public/css/text.css" />
+		<link rel="stylesheet" type="text/css" href="public/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="public/css/core.css" />
+	</head>
+	<body>
+		
+		<header id="header" class="container_12">
+			<h1>Bug Tracker</h1>
+		</header><!-- end header -->
+		
+		<section id="page" class="container_12">
+			
+			<!-- *************************************************************************** -->
+			<section id="add_user" class="grid_6">
+				<h4>Add User</h4>
+				<form method="POST" action="#/add/user">
+					<label for="add_username">Username</label><br/>
+					<input type="text" id="add_username" name="add_username" /><br/>
+					
+					<label for="add_password">Password</label><br/>
+					<input type="password" id="add_password" name="add_password" /><br/>
+					
+					<button class="button" type="submit">Add user</button>
+				</form>
+			</section>
+			<!-- *************************************************************************** -->
+			
+		</section><!-- end of page -->
+		
+		<footer id="footer" class="container_12">
+			&copy; <a href="http://voratec.com">voratec</a> 2010 :: Bug Tracker
+		</footer><!-- end footer -->
+		
+		
+		<!-- Load all Libraries -->
+		<script type="text/javascript" src="public/js/libs/jQuery.js"></script>
+		<script type="text/javascript" src="public/js/libs/jQueryUI.js"></script>
+		<script type="text/javascript" src="public/js/libs/sammy.js"></script>
+		
+		<!-- Load all views -->
+		<script type="text/javascript" src="public/js/views/session.js"></script>
+		<script type="text/javascript" src="public/js/views/init.js"></script>
+		
+		<!-- Load all helpers -->
+		<script type="text/javascript" src="public/js/helpers/connection.js"></script>
+		<script type="text/javascript" src="public/js/helpers/helpers.js"></script>
+		<script type="text/javascript" src="public/js/helpers/notification.js"></script>
+		<script type="text/javascript" src="public/js/helpers/modal.js"></script>
+		
+		<!-- Load other scripts -->
+		<script type="text/javascript" src="public/js/core.js"></script>
+		<script type="text/javascript" src="public/js/session.js"></script>
+		
+		<!-- Load models -->
+		<script type="text/javascript" src="public/js/models/user.js"></script>
+		
+		<script type="text/javascript" src="public/js/application.js"></script> <!-- All JS Files and views should be loaded before this (except Routes). So App can be initialized here. -->
+		<script type="text/javascript" src="public/js/routes.js"></script>
+		
+		<!-- helpers -->
+		
+	</body>
+</html>

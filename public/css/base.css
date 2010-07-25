@@ -1,0 +1,66 @@
+body{
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+}
+
+h1,h2,h3,h4{
+	color:#8FB048;
+}
+
+.form-panel{
+	background-color:#ffe17e;
+	padding:10px;
+}
+
+input, textarea{
+	margin-bottom:15px;
+	width:250px;
+	padding:3px;
+}
+
+button{
+	margin-right:10px;
+	cursor: pointer;
+}
+
+label{
+	font-weight:bold;
+	font-size:14px;
+}
+
+#footer, #header{
+	color:#222;
+}
+
+#header h1{
+	color:#333;
+}
+
+#header{
+	top:0;
+	border-bottom:1px solid;
+}
+
+#footer{
+	display:none;
+	bottom:0;
+	text-align:center;
+}
+
+#page{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
+#message-bar{
+	top:0;
+	margin:5px;
+	z-index:100;
+	display:none;
+	text-align:center;
+}
+
+#message-bar span.message{
+	background-color:#ff4040;
+	color:#fff;
+	padding:3px 5px;
+}
